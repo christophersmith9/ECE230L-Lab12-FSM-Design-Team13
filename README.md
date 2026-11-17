@@ -19,10 +19,10 @@ In this lab we learned about the inner workings of finite state machines. We lea
 
 ## Lab Questions
 ### Compare and contrast One Hot and Binary encodings
-Binary is more traditional and less overwhelming but requires more steps because of the multiple tables you must use as you've broken apart the equations. One hot is different being that it combines all inputs in one hot mess of a table/code (hence the name). They both reach the endpoint but one is more messy but fast and the other is very step by step but slower.
+Binary is more traditional and less overwhelming but requires more steps because of the multiple tables you must use as you've broken apart the equations. One hot is different being that it combines all inputs in one hot mess of a table/code (hence the name). They both reach the endpoint but one is more messy but faster to code and the other is very step by step and slower to code.
 
 ### Which method did your team find easier, and why?
 One hot is the one we found easier, because we don't have any hardware restrictions and can just use five D flip-flops.
 
 ### In what conditions would you have to use one over the other? Think about resource utilization on the FPGA.
-One hot is the one you use if you have no hardware restrictions, it's messier and can cause latency if used on large scale. Binary is much more in depth doing all the logic step by step, causing less latency but being harder to do.
+One hot is the one you use if you have no hardware restrictions, it's messier and can use a lot more flip-flops if used on large scale. Binary is much more in depth doing all the logic step by step, using less flip-flops but being harder to do.
