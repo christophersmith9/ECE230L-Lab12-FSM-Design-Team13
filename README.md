@@ -25,4 +25,4 @@ Binary is more traditional and less overwhelming but requires more steps because
 One hot is the one we found easier, because we don't have any hardware restrictions and can just use five D flip-flops.
 
 ### In what conditions would you have to use one over the other? Think about resource utilization on the FPGA.
-Hot mess is the one you use if you have no hardware restrictions, it's messier and can cause latency if used on large scale. Binary is much more in depth doing all the logic step by step, causing less latency but being harder to do.
+One hot is the one you use if you have no hardware restrictions, it's messier and can cause latency if used on large scale. Binary is much more in depth doing all the logic step by step, causing less latency but being harder to do.
